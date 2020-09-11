@@ -16,7 +16,7 @@ Please try to run the sync first and then dry-run for testing it prior to deploy
 
 The repo has the required config files to deploy a wordpress app which connects to a local MySQL DB inside the EKS cluster.
 
-MySQL config
+### MySQL config
 
 1. Creting the presistent volume on a hostpath.
 2. Creating the volume claim to claim the volume we created.
@@ -24,7 +24,7 @@ MySQL config
 4. Creating the deployment for MySQL
 5. Exposing the deployment as a service type - cluster IP.
 
-Wordpress config
+### Wordpress config
 
 1. Creting the presistent volume on a hostpath.
 2. Creating the volume claim to claim the volume we created.
